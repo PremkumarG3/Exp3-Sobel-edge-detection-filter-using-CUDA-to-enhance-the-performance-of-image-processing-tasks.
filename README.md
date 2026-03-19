@@ -128,7 +128,7 @@ int main() {
 ```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/e5225b95-c905-41f4-8089-e44718063874)
-<img width="689" height="440" alt="image" src="https://github.com/user-attachments/assets/7d1a5cd6-a81f-48f6-9ed3-0ceff7c9a01c" />
+<img width="1583" height="445" alt="image" src="https://github.com/user-attachments/assets/0410faee-d9cd-47e7-8d27-c756eb6e35fe" />
 
 ## RESULT:
 Thus the program has been executed by using CUDA to perform Sobel edge detection on an image using GPU parallel processing was executed successfully.
