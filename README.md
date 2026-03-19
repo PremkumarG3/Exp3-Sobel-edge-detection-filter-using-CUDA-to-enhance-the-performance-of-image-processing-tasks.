@@ -132,11 +132,3 @@ int main() {
 
 ## RESULT:
 Thus the program has been executed by using CUDA to perform Sobel edge detection on an image using GPU parallel processing was executed successfully.
-
-What challenges did you face while implementing the Sobel filter for color images? Color images contain three channels (RGB), which makes processing more complex. To simplify the implementation, the image was converted into grayscale before applying the Sobel filter.
-
-How did changing the block size influence the performance of your CUDA implementation? Changing the block size affects GPU thread utilization. A 16×16 block size provided better parallel execution and improved performance compared to smaller block sizes.
-
-What were the differences in output between the CUDA and CPU implementations? Both CUDA and CPU implementations produced similar edge detection results. Minor differences occurred due to floating-point precision and parallel processing in GPU computation.
-
-Suggest potential optimizations for improving the performance of the Sobel filter. Performance can be improved by using shared memory, optimizing memory access patterns, and reducing CPU–GPU data transfers
